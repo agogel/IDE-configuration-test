@@ -1,0 +1,20 @@
+<templateSet group="html/xml">
+  <template name="fs" value="&lt;f:section name=&quot;$NAME$&quot;&gt;&#10;  $END$&#10;&lt;/f:section&gt;" description="Fluid section" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fv" value="&lt;f:variable name=&quot;$NAME$&gt;&#10;  $END$&#10;&lt;/f:variable&gt;" description="Fluid variable" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fvv" value="&lt;f:variable&#10;  name=&quot;$NAME$&quot;&#10;  value=&quot;$END$&quot;&#10;/&gt;" description="Fluid variable value" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

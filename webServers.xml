@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="71b79acb-f329-4614-be21-53cc7a35549f" name="ap06 | itx-gogelach" url="http://10.163.0.15">
+        <fileTransfer host="10.163.0.15" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/itx-gogelach/vhosts" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d575270f-1b53-40d4-982e-d1e22bce8c8c" name="pbs-dev | itx-gogelach" url="http://pbs-c02-ap40.frnt.dev.rsp.pbsnetwork.eu">
+        <fileTransfer host="pbs-c02-ap40.frnt.dev.rsp.pbsnetwork.eu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/itx-gogelach" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
