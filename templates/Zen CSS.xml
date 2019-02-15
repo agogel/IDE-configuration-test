@@ -41,4 +41,11 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="custombdc" value="border-color: $FALLBACK$;&#10;border-color: var(--$CPNAME$), $FALLBACK$$END$;" description="border-color: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
