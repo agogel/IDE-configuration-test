@@ -1,0 +1,37 @@
+<templateSet group="Zen CSS">
+  <template name="custombg" value="background-color: $FALLBACK$;&#10;background-color: var(--$CPNAME$), $FALLBACK$$END$;" description="background-color: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="customc" value="color: $FALLBACK$;&#10;color: var(--$CPNAME$), $FALLBACK$$END$;" description="color: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="customtransd" value="transition-duration: $FALLBACK$;&#10;transition-duration: var(--$CPNAME$), $FALLBACK$$END$;" description="transition-duration: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="customtranst" value="transition-timing-function: $FALLBACK$;&#10;transition-timing-function: var(--$CPNAME$), $FALLBACK$$END$;" description="transition-timing-function: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="customtrans" value="transition: $FALLBACK$;&#10;transition: var(--$CPNAME$), $FALLBACK$$END$;" description="transition: var(--...), ...;" toReformat="false" toShortenFQNames="true">
+    <variable name="CPNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
