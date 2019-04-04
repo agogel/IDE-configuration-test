@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="fluid" type="HTML" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="00-multi-step-modals-sofort-kunde-werden.fluid" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="icon" type="PLAIN_TEXT" />
+      <mapping pattern="PageHeaderBarNavigationCompact" type="Vue.js" />
       <mapping ext="xlf" type="XML" />
       <removed_mapping ext="xlf" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
