@@ -11,12 +11,12 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.json</mask>
-    <mask>*.scss</mask>
     <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>*.fluid</mask>
     <mask>*.</mask>
     <mask>*.pdf</mask>
     <mask>*.php</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
