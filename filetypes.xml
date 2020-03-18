@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="fluid" type="HTML" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="00-multi-step-modals-sofort-kunde-werden.fluid" type="PLAIN_TEXT" />
       <mapping ext="icon" type="PLAIN_TEXT" />
       <mapping pattern="PageHeaderBarNavigationCompact" type="Vue.js" />
