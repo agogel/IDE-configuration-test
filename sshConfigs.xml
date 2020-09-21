@@ -3,7 +3,7 @@
     <configs>
       <sshConfig host="10.163.0.15" id="534f44a1-6510-4dc5-9046-0c2a14116b89" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="ap06 | itx-gogelach" nameFormat="CUSTOM" username="itx-gogelach" />
       <sshConfig host="pbs-c02-ap40.frnt.dev.rsp.pbsnetwork.eu" id="a455e0e4-ddcd-4b0a-8d9f-76e6216bc78f" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="pbs-dev | itx-gogelach" nameFormat="CUSTOM" username="itx-gogelach" />
-      <sshConfig host="pbs-c02-ap40.frnt.dev.rsp.pbsnetwork.eu" id="ffe5c0c3-dd25-49e5-8240-0cdca6a6eacc" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="pbs-dev | itx-gogelach" nameFormat="CUSTOM" username="itx-gogelach" />
+      <sshConfig host="pbs-c02-ap40.frnt.dev.rsp.pbsnetwork.eu" id="0943ef60-04c9-4f44-960f-8a13c45507c1" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="pbs-dev | itx-gogelach" nameFormat="CUSTOM" username="itx-gogelach" />
     </configs>
   </component>
 </application>
