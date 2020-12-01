@@ -22,7 +22,7 @@
     <mask>*.pdf</mask>
     <mask>*.php</mask>
     <mask>*.scss</mask>
-    <mask>*.xlf</mask>
     <mask>*.spec.js</mask>
+    <mask>*.xlf</mask>
   </component>
 </application>
